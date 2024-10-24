@@ -175,3 +175,4 @@ jobs:
           name: artifact-${{ runner.os }}-mingw
           path: |
             rime-${{ env.git_ref_name }}-${{ runner.os }}-mingw.tar.bz2
+            rime-deps-${{ env.git_ref_name }}-${{ runner.os }}-${{ matrix.compiler }}-mingw.tar.bz2
